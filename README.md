@@ -21,16 +21,16 @@ Key goals:
 
 ```
 .
-├── LTR_clean.ipynb                   # Main notebook containing all modeling steps
-├── Feature_Importance_LTR_Model.png  # Visual output showing top-ranking features
-├── Urgent_Order_Ratio_by_Month.png   # Visual showing seasonal urgency trends
-├── requirements.txt                  # Python dependencies used in the notebook
+├── LTR_clean.ipynb             # Main notebook containing all modeling steps
+├── feature_importance.png      # Visual output showing top-ranking features
+├── urgent-order-ratio.png      # Visual showing seasonal urgency trends
+├── requirements.txt            # Python dependencies used in the notebook
 └── README.md
 ```
 
 
 
-## 🔧 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python 3.9+
 - LightGBM (ranking objective)
@@ -58,7 +58,7 @@ Key goals:
 
 
 
-## 📊 Key Insights
+## Key Insights
 
 - **Feature Importance**
   - Order Age: 56.1%
@@ -76,7 +76,7 @@ Key goals:
 
 
 
-## 📁 How to Use
+## How to Use
 
 1. Clone the repository:
 ```bash
